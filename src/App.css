@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 250px;
+  height: 250px;
+  background: red;
+}
+
+.post {
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px;
+  background: white;
+}
+.post > img {
+  width: 100%;
+}
+.post svg {
+  font-size: 50px;
+}
+.post span {
+  font-size: 30px;
+}
+.bar {
+  display: flex;
+  align-items: center;
+  gap:20px
+}
